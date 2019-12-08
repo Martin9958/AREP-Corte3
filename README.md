@@ -55,14 +55,17 @@ Consumidor recibiendo el mensaje
 
 1. Para utilizar Amazon EC2 Auto Scaling,se debe utilizar determinados componentes basicos para empezar, iniciando con la creacion de una plantilla de lanzamiento la cual especificara el tipo de instancia EC2 que se creara automaticamente.Para la creacion es necesario entrar a la consola de EC2 y escoger la region de AWS a la cual se asociaran los recursos, una vez escogido seleccione Launch Templates y elija la opcion Create Launch Template:
 
+![](https://github.com/Martin9958/AREP-Corte3/blob/master/imagenes/IM1.png)
+
 2. Seleccione en AMI ID la version de Amazon Linux 2 y el tipo de instancia la cual es t2.micro, dele nombre a las llaves que se generan y seleccione como red VPC.
 
 3. Elija Create launch template (Crear plantilla de lanzamiento).En la página de confirmación, seleccione Create Auto Scaling group (Crear grupo de Auto Scaling).
 
-4. Ahora se tiene que rear un grupo de Auto Scaling, en el paso Configure Auto Scaling group details (Configurar los detalles del grupo de Auto Scaling)
+4. Ahora se tiene que crear un grupo de Auto Scaling, en el paso Configure Auto Scaling group details (Configurar los detalles del grupo de Auto Scaling)
 
-5. Para configurar los dellates del grupo de Auto Scaling
-En Group name (Nombre del grupo), escriba un nombre para el grupo de Auto Scaling (por ejemplo, my-first-asg).
+5. Para configurar los dellates del grupo de Auto Scaling. En Group name (Nombre del grupo), escriba un nombre para el grupo de Auto Scaling (por ejemplo, my-first-asg).
+
+![](https://github.com/Martin9958/AREP-Corte3/blob/master/imagenes/IM2.png)
 
 6. En Launch template version (Versión de plantilla de lanzamiento), decida si el grupo de Auto Scaling utiliza el valor predeterminado, la última versión o la versión específica de la plantilla de lanzamiento para escalado ascendente.
 
@@ -79,6 +82,10 @@ En Group name (Nombre del grupo), escriba un nombre para el grupo de Auto Scalin
 12. En la página Auto Scaling group creation status (Estado de la creación del grupo de Auto Scaling), elija Close (Cerrar).
 
 13. NOTA: Puede Verificar su grupo de Auto Scaling en la pestaña de detalles, en la parte de ACtivity History puede tener un vistazo del estatus de la instancia actual.
+
+![](https://github.com/Martin9958/AREP-Corte3/blob/master/imagenes/IMG3.png)
+
+![](https://github.com/Martin9958/AREP-Corte3/blob/master/imagenes/IMG4.png)
 
 ## Autor
 - Andres Martin Cantor Urrego
